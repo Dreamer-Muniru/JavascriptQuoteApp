@@ -1,0 +1,209 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+
+/*==============================================
+	Navigation
+================================================*/
+.navbar-brand img {
+	height: 3rem;
+	position: absolute;
+	top: 18px;	
+}
+
+.navbar-home {
+	background-color: lightblue;
+	border-radius: 0px;
+	
+}
+
+.navbar-default {
+    background-color: #fff;
+    border: none;
+    color: white;
+    margin: 0px;
+    padding: 10px;   
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul li:hover {
+		color: #6c2044;
+		border-bottom: double #6c2044;
+		background-color: lightgrey;
+}
+
+/*==============================================
+	Navigation
+================================================*/
+
+
+
+.quote_wrapper h1 {
+	margin-bottom: 30px;
+}
+
+.right_content {
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	box-shadow: 4px 7px 4px 2px #888888;
+	border-radius: 10px;
+    background-color: lightseagreen;
+    padding: 10px;
+}
+
+.right_content h2 {
+	font-size: 40px;
+	text-align: center;
+}
+ul li {
+    padding: 10px;
+    color: red;
+    font-size: 18px;
+   
+   
+}
+
+input[type=text] {
+	border-radius: 5px;
+	height: 40px;
+	width: 80%;
+
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-left: 40px;
+}
+button:hover {
+    background-color: red;
+    font-weight: bold;
+    font-size: 16px;
+
+    
+}
+.left_content {
+    width: 100%;
+	height: 600px;
+	overflow: hidden;
+	box-shadow: 1px 2px 4px 1px #888888;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.left_content h2 {
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+	margin-bottom: 30px;
+}
+
+
+/*==============================================
+ Section_A
+================================================*/
+
+.section_banner {
+	background: url(img/banner.jpg);
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 100px;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+
+}
+
+
+
+.btn-primary {
+	background-color: #6c2044;
+	color: #fff;
+}
+
+.font_size:hover {
+	background-color: #fff;
+	color: #6c2044;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+
+
+.font_size {	
+	font-size: 25px;
+	padding: 10px;
+	width: 250px;
+}
+
+.section_banner h1 {
+	line-height: 80px;
+	padding-bottom: 40px;
+	color: red;
+}
+
+
+@media (max-width: 768px) {
+	.left_content {
+    width: 100%;
+	height: 200px;
+	overflow: hidden;
+	box-shadow: 1px 2px 4px 1px #888888;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.left_content h2 {
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+	margin-bottom: 30px;
+}	
+
+input[type=text] {
+	height: 30px auto;
+	width: 60%;
+	border-color: #6c2044;
+	border-radius: 5px;
+	margin: 0px;
+
+
+}
+
+input[placeholder] {
+	text-align: center;
+}
+
+button {
+	width: 80px;
+	font-size: 16px;
+	
+}
+
+}
+
+
+
+/*=========================================
+	Find Job Section
+	
+============================================*/
